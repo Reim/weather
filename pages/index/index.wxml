@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view wx:if="{{weather.location}}" class="weather">
+    <text class="city">当前城市：{{weather.location.name}}</text>
+    <text class="condition">当前天气：{{weather.now.text}}</text>
+    <text class="temp">当前温度：{{weather.now.temperature}} ℃</text>
+    <text class="timezone">{{weather.last_update}}</text>
+  </view>
+</view>

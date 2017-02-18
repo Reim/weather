@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2f3b53",
+    "navigationBarTitleText": "girls",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor":"red",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "assets/images/home_n.png",
+      "selectedIconPath": "assets/images/home.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "iconPath": "assets/images/home_n.png",
+      "selectedIconPath": "assets/images/home.png",
+      "text": "日志"
+    },{
+      "pagePath":"page/others/others",
+       "iconPath": "assets/images/home_n.png",
+      "selectedIconPath": "assets/images/home.png",
+      "text": "其他"
+    }]
+  }
+}
